@@ -14,6 +14,7 @@
 		EF3900591B8C8D1000EC723B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3900581B8C8D1000EC723B /* Images.xcassets */; };
 		EF39005C1B8C8D1000EC723B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF39005A1B8C8D1000EC723B /* LaunchScreen.xib */; };
 		EF3900681B8C8D1000EC723B /* WFContentScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3900671B8C8D1000EC723B /* WFContentScrollViewTests.m */; };
+		EF3900741B8C8E8400EC723B /* WFContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3900731B8C8E8400EC723B /* WFContentScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EF3900611B8C8D1000EC723B /* WFContentScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFContentScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3900661B8C8D1000EC723B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF3900671B8C8D1000EC723B /* WFContentScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFContentScrollViewTests.m; sourceTree = "<group>"; };
+		EF3900721B8C8E8400EC723B /* WFContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFContentScrollView.h; sourceTree = "<group>"; };
+		EF3900731B8C8E8400EC723B /* WFContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFContentScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		EF39004A1B8C8D1000EC723B /* WFContentScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				EF3900711B8C8E3A00EC723B /* WFContentScrollView */,
 				EF39004F1B8C8D1000EC723B /* AppDelegate.h */,
 				EF3900501B8C8D1000EC723B /* AppDelegate.m */,
 				EF3900521B8C8D1000EC723B /* ViewController.h */,
@@ -117,6 +121,15 @@
 				EF3900661B8C8D1000EC723B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF3900711B8C8E3A00EC723B /* WFContentScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				EF3900721B8C8E8400EC723B /* WFContentScrollView.h */,
+				EF3900731B8C8E8400EC723B /* WFContentScrollView.m */,
+			);
+			path = WFContentScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				EF3900541B8C8D1000EC723B /* ViewController.m in Sources */,
 				EF3900511B8C8D1000EC723B /* AppDelegate.m in Sources */,
+				EF3900741B8C8E8400EC723B /* WFContentScrollView.m in Sources */,
 				EF39004E1B8C8D1000EC723B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +430,7 @@
 				EF39006D1B8C8D1000EC723B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF39006E1B8C8D1000EC723B /* Build configuration list for PBXNativeTarget "WFContentScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +439,7 @@
 				EF3900701B8C8D1000EC723B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
