@@ -22,6 +22,7 @@
 {
     if (self == [super init]) {
         self.currentPageIndex = 0;
+        self.enableClipsToBounds = YES;
     }
     return self;
 }
@@ -34,6 +35,7 @@
         _scrollView = [[UIScrollView alloc] init];
         _scrollView.delegate = self;
         _scrollView.pagingEnabled = YES;
+        _scrollView.clipsToBounds = self.enableClipsToBounds;
         _scrollView.showsHorizontalScrollIndicator = NO;
         _scrollView.showsVerticalScrollIndicator = NO;
         [self addSubview:_scrollView];

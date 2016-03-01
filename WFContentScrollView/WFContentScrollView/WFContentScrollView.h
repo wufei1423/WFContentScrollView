@@ -42,6 +42,11 @@
  */
 @property (nonatomic, assign) NSUInteger currentPageIndex;
 
+/**
+ *  defaut is YES
+ */
+@property (nonatomic, assign) BOOL enableClipsToBounds;
+
 - (void)scrollToViewAtIndex:(NSUInteger)index;
 
 @end
