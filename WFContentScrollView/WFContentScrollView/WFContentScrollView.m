@@ -127,4 +127,9 @@
     [self.scrollView setContentOffset:CGPointMake(index * self.scrollView.bounds.size.width, 0) animated:YES];
 }
 
+- (void)reloadData
+{
+    [self setNeedsLayout];
+}
+
 @end

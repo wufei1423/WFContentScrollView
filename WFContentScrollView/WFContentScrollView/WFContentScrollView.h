@@ -49,4 +49,6 @@
 
 - (void)scrollToViewAtIndex:(NSUInteger)index;
 
+- (void)reloadData;
+
 @end
