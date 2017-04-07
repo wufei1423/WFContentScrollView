@@ -43,6 +43,7 @@
 		EF3900671B8C8D1000EC723B /* WFContentScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFContentScrollViewTests.m; sourceTree = "<group>"; };
 		EF3900721B8C8E8400EC723B /* WFContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFContentScrollView.h; sourceTree = "<group>"; };
 		EF3900731B8C8E8400EC723B /* WFContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFContentScrollView.m; sourceTree = "<group>"; };
+		EFA5B7161E97823E00A32550 /* WFDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +137,7 @@
 		EFA5B7151E9781D800A32550 /* WFDefine */ = {
 			isa = PBXGroup;
 			children = (
+				EFA5B7161E97823E00A32550 /* WFDefine.h */,
 			);
 			path = WFDefine;
 			sourceTree = "<group>";
