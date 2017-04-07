@@ -84,6 +84,7 @@
 		EF39004A1B8C8D1000EC723B /* WFContentScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				EFA5B7151E9781D800A32550 /* WFDefine */,
 				EF3900711B8C8E3A00EC723B /* WFContentScrollView */,
 				EF39004F1B8C8D1000EC723B /* AppDelegate.h */,
 				EF3900501B8C8D1000EC723B /* AppDelegate.m */,
@@ -130,6 +131,13 @@
 				EF3900731B8C8E8400EC723B /* WFContentScrollView.m */,
 			);
 			path = WFContentScrollView;
+			sourceTree = "<group>";
+		};
+		EFA5B7151E9781D800A32550 /* WFDefine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WFDefine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
