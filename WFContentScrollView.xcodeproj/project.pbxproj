@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36102F222521D184004023BB /* mao.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 36102F1B2521D184004023BB /* mao.jpeg */; };
+		36102F232521D184004023BB /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36102F1C2521D184004023BB /* TableViewCell.m */; };
+		36102F242521D184004023BB /* test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36102F1D2521D184004023BB /* test.storyboard */; };
+		36102F252521D184004023BB /* test.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36102F1F2521D184004023BB /* test.bundle */; };
+		36102F262521D184004023BB /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36102F202521D184004023BB /* TableViewCell.xib */; };
+		36102F272521D184004023BB /* testMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36102F212521D184004023BB /* testMedia.xcassets */; };
 		EF39004E1B8C8D1000EC723B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39004D1B8C8D1000EC723B /* main.m */; };
 		EF3900511B8C8D1000EC723B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3900501B8C8D1000EC723B /* AppDelegate.m */; };
 		EF3900541B8C8D1000EC723B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3900531B8C8D1000EC723B /* ViewController.m */; };
@@ -28,6 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36102F1B2521D184004023BB /* mao.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mao.jpeg; sourceTree = "<group>"; };
+		36102F1C2521D184004023BB /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		36102F1D2521D184004023BB /* test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = test.storyboard; sourceTree = "<group>"; };
+		36102F1E2521D184004023BB /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		36102F1F2521D184004023BB /* test.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = test.bundle; sourceTree = "<group>"; };
+		36102F202521D184004023BB /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		36102F212521D184004023BB /* testMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = testMedia.xcassets; sourceTree = "<group>"; };
 		EF3900481B8C8D1000EC723B /* WFContentScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFContentScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF39004C1B8C8D1000EC723B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF39004D1B8C8D1000EC723B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -130,6 +143,13 @@
 			children = (
 				EF3900721B8C8E8400EC723B /* WFContentScrollView.h */,
 				EF3900731B8C8E8400EC723B /* WFContentScrollView.m */,
+				36102F1B2521D184004023BB /* mao.jpeg */,
+				36102F1E2521D184004023BB /* TableViewCell.h */,
+				36102F1C2521D184004023BB /* TableViewCell.m */,
+				36102F202521D184004023BB /* TableViewCell.xib */,
+				36102F1F2521D184004023BB /* test.bundle */,
+				36102F1D2521D184004023BB /* test.storyboard */,
+				36102F212521D184004023BB /* testMedia.xcassets */,
 			);
 			path = WFContentScrollView;
 			sourceTree = "<group>";
@@ -203,6 +223,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -223,7 +244,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF3900571B8C8D1000EC723B /* Main.storyboard in Resources */,
+				36102F252521D184004023BB /* test.bundle in Resources */,
+				36102F262521D184004023BB /* TableViewCell.xib in Resources */,
+				36102F222521D184004023BB /* mao.jpeg in Resources */,
 				EF39005C1B8C8D1000EC723B /* LaunchScreen.xib in Resources */,
+				36102F242521D184004023BB /* test.storyboard in Resources */,
+				36102F272521D184004023BB /* testMedia.xcassets in Resources */,
 				EF3900591B8C8D1000EC723B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +271,7 @@
 				EF3900541B8C8D1000EC723B /* ViewController.m in Sources */,
 				EF3900511B8C8D1000EC723B /* AppDelegate.m in Sources */,
 				EF3900741B8C8E8400EC723B /* WFContentScrollView.m in Sources */,
+				36102F232521D184004023BB /* TableViewCell.m in Sources */,
 				EF39004E1B8C8D1000EC723B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
